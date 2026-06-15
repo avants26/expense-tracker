@@ -1,0 +1,138 @@
+2026-06-15 23:26:54.919 [info] [main] Log level: Info
+2026-06-15 23:26:54.919 [info] [main] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2026-06-15 23:26:54.919 [info] [main] Using git "2.53.0.windows.1" from "C:\Program Files\Git\cmd\git.exe"
+2026-06-15 23:26:54.919 [info] [Model][doInitialScan] Initial repository scan started
+2026-06-15 23:26:54.926 [info] > git rev-parse --show-toplevel [3987ms]
+2026-06-15 23:26:55.458 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [296ms]
+2026-06-15 23:26:55.493 [info] [Model][openRepository] Opened repository (path): c:\Users\91989\Desktop\projects\expense tracker
+2026-06-15 23:26:55.494 [info] [Model][openRepository] Opened repository (real path): c:\Users\91989\Desktop\projects\expense tracker
+2026-06-15 23:26:55.494 [info] [Model][openRepository] Opened repository (kind): repository
+2026-06-15 23:26:55.521 [info] [Git][getRemotes] No remotes found in the git config file
+2026-06-15 23:26:55.649 [info] > git config --get commit.template [141ms]
+2026-06-15 23:26:55.661 [info] > git rev-parse --show-toplevel [147ms]
+2026-06-15 23:26:55.693 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [162ms]
+2026-06-15 23:26:55.693 [warning] [Git][getBranch] No such branch: master
+2026-06-15 23:26:55.754 [info] > git rev-parse --show-toplevel [83ms]
+2026-06-15 23:26:55.757 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-06-15 23:26:55.787 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [77ms]
+2026-06-15 23:26:57.260 [info] > git status -z -uall [1558ms] (cancelled)
+2026-06-15 23:26:57.341 [info] > git check-ignore -v -z --stdin [111ms]
+2026-06-15 23:26:58.435 [info] > git config --get commit.template [822ms]
+2026-06-15 23:26:58.435 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [949ms]
+2026-06-15 23:26:58.435 [warning] [Git][getBranch] No such branch: master
+2026-06-15 23:26:58.435 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2026-06-15 23:26:58.486 [info] [Git][getRemotes] No remotes found in the git config file
+2026-06-15 23:26:58.646 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [160ms]
+2026-06-15 23:26:58.646 [warning] [Git][getBranch] No such branch: master
+2026-06-15 23:26:58.793 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [136ms]
+2026-06-15 23:26:59.608 [info] > git status -z -uall [956ms] (cancelled)
+2026-06-15 23:26:59.683 [info] > git check-ignore -v -z --stdin [113ms]
+2026-06-15 23:27:00.837 [info] [Git][getRemotes] No remotes found in the git config file
+2026-06-15 23:27:00.907 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [123ms]
+2026-06-15 23:27:00.907 [info] fatal: bad revision 'refs/heads/master'
+2026-06-15 23:27:00.908 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/master"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/master'\n"
+}
+2026-06-15 23:27:00.966 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [124ms]
+2026-06-15 23:27:00.967 [warning] [Git][getBranch] No such branch: master
+2026-06-15 23:27:00.971 [info] > git config --get commit.template [138ms]
+2026-06-15 23:27:01.066 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [82ms]
+2026-06-15 23:27:01.418 [info] > git check-ignore -v -z --stdin [83ms]
+2026-06-15 23:27:02.010 [info] > git status -z -uall [1033ms] (cancelled)
+2026-06-15 23:27:19.040 [info] > git check-ignore -v -z --stdin [49ms]
+2026-06-15 23:27:22.045 [info] > git check-ignore -v -z --stdin [52ms]
+2026-06-15 23:27:26.187 [info] [Git][getRemotes] No remotes found in the git config file
+2026-06-15 23:27:26.261 [info] > git config --get commit.template [76ms]
+2026-06-15 23:27:26.267 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [75ms]
+2026-06-15 23:27:26.267 [warning] [Git][getBranch] No such branch: master
+2026-06-15 23:27:26.332 [info] > git status -z -uall [60ms]
+2026-06-15 23:27:26.334 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [56ms]
+2026-06-15 23:27:27.119 [info] > git check-ignore -v -z --stdin [49ms]
+2026-06-15 23:27:31.010 [info] > git check-ignore -v -z --stdin [50ms]
+2026-06-15 23:27:45.080 [info] > git add -A -- . [214ms]
+2026-06-15 23:27:45.080 [info] warning: in the working copy of 'backend/.env', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'backend/config/db.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'backend/controllers/authController.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'backend/controllers/expenseController.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'backend/middleware/authMiddleware.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'backend/middleware/errorMiddleware.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'backend/models/User.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'backend/models/expense.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'backend/package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'backend/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'backend/routes/authRoutes.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'backend/routes/expenseRoutes.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'backend/server.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'frontend/frontend/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'frontend/frontend/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'frontend/frontend/package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'frontend/frontend/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'frontend/frontend/public/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'frontend/frontend/public/manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'frontend/frontend/public/robots.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'frontend/frontend/src/App.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'frontend/frontend/src/App.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'frontend/frontend/src/App.test.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'frontend/frontend/src/components/Auth.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'frontend/frontend/src/components/CategoryChart.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'frontend/frontend/src/components/ExpenseForm.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'frontend/frontend/src/components/ExpenseList.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'frontend/frontend/src/components/TrendChart.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'frontend/frontend/src/index.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'frontend/frontend/src/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'frontend/frontend/src/reportWebVitals.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'frontend/frontend/src/setupTests.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'test_backend.py', LF will be replaced by CRLF the next time Git touches it
+2026-06-15 23:27:45.167 [info] > git -c user.useConfigOnly=true commit --quiet [82ms]
+2026-06-15 23:27:45.167 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "kani.kanisshkharan@gmail.com"
+  git config --global user.name "kani-ops"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2026-06-15 23:27:45.217 [info] > git config --get-all user.name [46ms]
+2026-06-15 23:27:45.221 [info] [Git][getRemotes] No remotes found in the git config file
+2026-06-15 23:27:45.272 [info] > git config --get commit.template [51ms]
+2026-06-15 23:27:45.276 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [50ms]
+2026-06-15 23:27:45.276 [warning] [Git][getBranch] No such branch: master
+2026-06-15 23:27:45.334 [info] > git status -z -uall [55ms]
+2026-06-15 23:27:45.337 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [53ms]
+2026-06-15 23:27:49.953 [info] [Git][getRemotes] No remotes found in the git config file
+2026-06-15 23:27:50.021 [info] > git config --get commit.template [69ms]
+2026-06-15 23:27:50.028 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [68ms]
+2026-06-15 23:27:50.028 [warning] [Git][getBranch] No such branch: master
+2026-06-15 23:27:50.105 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [67ms]
+2026-06-15 23:27:50.109 [info] > git status -z -uall [77ms]
+2026-06-15 23:30:12.719 [info] > git -c user.useConfigOnly=true commit --quiet [132ms]
+2026-06-15 23:30:12.720 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2026-06-15 23:30:12.789 [info] > git config --get-all user.name [64ms]
+2026-06-15 23:30:12.804 [info] [Git][getRemotes] No remotes found in the git config file
+2026-06-15 23:30:12.858 [info] > git config --get commit.template [63ms]
+2026-06-15 23:30:12.869 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [65ms]
+2026-06-15 23:30:12.869 [warning] [Git][getBranch] No such branch: master
+2026-06-15 23:30:12.939 [info] > git status -z -uall [63ms]
+2026-06-15 23:30:12.940 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [58ms]
