@@ -1,0 +1,89 @@
+/* Main Dashboard Container */
+.fintech-dashboard {
+  min-height: 100vh;
+  background: var(--bg-deep);
+}
+
+.app-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+/* Override existing glass styles with cleaner Fintech look */
+.pro-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 20px;
+  padding: 24px;
+  transition: border-color 0.3s ease;
+}
+
+.pro-card:hover { border-color: var(--accent-primary); }
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Pro List Item row */
+.expense-item-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 12px;
+  margin-bottom: 8px;
+  border-left: 3px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.expense-item-row:hover {
+  background: rgba(255, 255, 255, 0.04);
+  border-left-color: var(--accent-primary);
+  transform: translateX(4px);
+}
+
+.expense-category-tag {
+  background: rgba(0, 242, 254, 0.1);
+  color: var(--accent-primary);
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.expense-title { font-weight: 500; font-size: 1rem; }
+.expense-amount { font-family: var(--font-fintech); font-weight: 700; color: var(--accent-growth); font-size: 1.1rem; }
+
+/* Pro Forms */
+.expense-form input, .expense-form select {
+  background: #1a1e28;
+  border: 1px solid var(--border-subtle);
+  color: white;
+  padding: 12px 16px;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  transition: border-color 0.3s ease;
+}
+
+.expense-form input:focus { border-color: var(--accent-primary); }
+
+.btn-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.btn-icon:hover { background: rgba(255,255,255,0.05); }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-thumb { background: var(--border-subtle); border-radius: 10px; }
